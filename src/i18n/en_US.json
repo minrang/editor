@@ -1,0 +1,95 @@
+{
+  "placeholder": {
+    "username": "Please enter user name",
+    "password": "Please enter the password",
+    "search": "Enter keywords to filter"
+  },
+  "type": {
+    "t0": "Private",
+    "t2": "Public",
+    "t1": "Auth"
+  },
+  "schema": {
+    "create_error": "Schema name is conflict, please check and submit",
+    "name": "Schema",
+    "add": "Add schema",
+    "delete": "Delete schema",
+    "name_input": "Please enter schema name"
+  },
+  "proc": {
+    "type": "Change function type",
+    "active": "Current function",
+    "schema": "Schema name",
+    "name": "Function",
+    "delete": "Delete function",
+    "config": "Function config",
+    "path": "Location",
+    "info": "Remark",
+    "private": "Private function",
+    "unsave": "Function is not saved",
+    "unsave_short": "Not saved",
+    "add": "Add function",
+    "cache": "Function cached",
+    "input": "Schema：{schema} - Function：{name} - Location：{path}",
+    "save_proc": {
+      "name_input": "Please enter function name",
+      "info_input": "Please enter function info",
+      "path_input": "Please enter location",
+      "error": "Function name or location conflict",
+      "success": "Settings modified successfully"
+    },
+    "create_proc": {
+      "error": "The function name or location you added conflicts",
+      "success": "Function added successfully"
+    },
+    "remove_proc": {
+      "error": "Function delete failed",
+      "success": "Function deleted successfully"
+    },
+    "sort_proc": {
+      "error": "Function sort failed",
+      "success": "Function sort successfully"
+    },
+    "test_proc": {
+      "title": "[ {name} ] Function test window"
+    }
+  },
+  "button": {
+    "add": "Add",
+    "login": "Log in",
+    "submit": "Submit",
+    "reset": "Reset",
+    "save": "Save",
+    "test": "Test",
+    "format": "Format",
+    "find": "Find",
+    "rename": "Rename",
+    "refresh": "Reload",
+    "cancel": "Cancel",
+    "yes": "Confirm",
+    "close": "Close"
+  },
+  "tips": {
+    "undefined": "undefined",
+    "ready": "Editing",
+    "not_ready": "Not ready",
+    "username_require": "Username can not be empty",
+    "username_length": "Username length must be between 4 and 32",
+    "username_format": "Formal: uppercase [A-Z], lowercase [a-z]",
+    "password_require": "Password can not be blank",
+    "password_length": "Password length must be between 8 and 32",
+    "proc_name_require": "Name cannot be empty",
+    "proc_name_format": "Formal: lowercase [a-z], underscores [_], numbers [0-9]",
+    "proc_path_require": "Location cannot be empty",
+    "proc_path_format": "Formal: Must start with a slash [/] or [@], followed by non-null characters",
+    "login_success": "Login successful",
+    "login_error": "Login failed with incorrect username or password！",
+    "exit": "Sign out?",
+    "refresh": "Reload complete",
+    "save_success": "Saved successfully",
+    "get_content_success": "Get [{name}] successfully",
+    "unsave": "Code has been modified, abandon saving?",
+    "delete_item": "Delete <b style='color:#F56C6C;'>{type}</b> Function：<b style='color:#336699;'>{name}</b>?",
+    "line_column": "Line {lineNumber}，Col {column}"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "placeholder": {
+    "username": "请输入用户名",
+    "password": "请输入密码",
+    "search": "输入关键字进行过滤"
+  },
+  "type": {
+    "t0": "内部",
+    "t1": "鉴权",
+    "t2": "公共"
+  },
+  "schema": {
+    "create_error": "目录名有冲突，请检查后提交",
+    "name": "目录",
+    "add": "添加目录",
+    "delete": "删除目录",
+    "name_input": "请输入目录名称"
+  },
+  "proc": {
+    "type": "改变函数类型",
+    "active": "当前函数",
+    "schema": "目录名",
+    "name": "函数",
+    "delete": "删除函数",
+    "config": "函数配置",
+    "path": "访问地址",
+    "info": "备注",
+    "private": "内部函数",
+    "unsave": "函数未保存",
+    "unsave_short": "未保存",
+    "add": "添加函数",
+    "cache": "函数已缓存",
+    "input": "目录名: {schema} - 函数名: {name} - 访问地址: {path}",
+    "save_proc": {
+      "name_input": "请输入函数名称",
+      "info_input": "请输入函数说明",
+      "path_input": "请输入访问地址",
+      "error": "函数名或访问地址冲突",
+      "success": "设置修改成功"
+    },
+    "create_proc": {
+      "error": "您添加的函数名或访问地址冲突",
+      "success": "函数添加成功"
+    },
+    "remove_proc": {
+      "error": "函数删除失败",
+      "success": "函数删除成功"
+    },
+    "sort_proc": {
+      "error": "函数排序失败",
+      "success": "函数排序成功"
+    },
+    "test_proc": {
+      "title": "[ {name} ] 函数调试窗口"
+    }
+  },
+  "button": {
+    "add": "添加",
+    "login": "登录",
+    "submit": "提交",
+    "reset": "重置",
+    "save": "保存",
+    "test": "测试",
+    "format": "格式化",
+    "find": "查找",
+    "refresh": "重载",
+    "rename": "重命名",
+    "cancel": "取消",
+    "yes": "确定",
+    "close": "关闭"
+  },
+  "tips": {
+    "undefined": "未定义",
+    "ready": "正在编辑",
+    "not_ready": "未就绪",
+    "username_require": "用户名不能为空",
+    "username_length": "用户名长度必须在 4 到 32 之间",
+    "username_format": "格式限制: 大写字母[A-Z]、小写字母[a-z]",
+    "password_require": "密码不能为空",
+    "password_length": "密码长度必须在 8 到 32 之间",
+    "proc_name_require": "名称不能为空",
+    "proc_name_format": "格式限制: 小写字母[a-z]、下划线[_]、数字[0-9]",
+    "proc_path_require": "访问地址不能为空",
+    "proc_path_format": "格式限制: 必须由斜杠[/]或[@]开头，后续连接非空字符",
+    "login_success": "登录成功",
+    "login_error": "登录失败，用户名或密码有误！",
+    "exit": "退出登录?",
+    "refresh": "重载完成",
+    "save_success": "保存成功",
+    "get_content_success": "[{name}] 获取成功",
+    "unsave": "代码已修改，放弃保存?",
+    "delete_schema": "删除目录: <b style='color:#336699;'>{name}？</b>",
+    "delete_item": "删除<b style='color:#F56C6C;'>{type}</b>函数: <b style='color:#336699;'>{name}？</b>",
+    "line_column": "行 {lineNumber}，列 {column}"
+  }
+}
